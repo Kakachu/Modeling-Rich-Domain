@@ -1,0 +1,15 @@
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Domain\bin\Debug\net7.0\PaymentContext.Domain.deps.json
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Domain\bin\Debug\net7.0\PaymentContext.Domain.dll
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Domain\bin\Debug\net7.0\PaymentContext.Domain.pdb
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Domain\bin\Debug\net7.0\PaymentContext.Shared.dll
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Domain\bin\Debug\net7.0\PaymentContext.Shared.pdb
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.csproj.AssemblyReference.cache
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.AssemblyInfoInputs.cache
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.AssemblyInfo.cs
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.csproj.CoreCompileInputs.cache
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.csproj.CopyComplete
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.dll
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\refint\PaymentContext.Domain.dll
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.pdb
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\ref\PaymentContext.Domain.dll

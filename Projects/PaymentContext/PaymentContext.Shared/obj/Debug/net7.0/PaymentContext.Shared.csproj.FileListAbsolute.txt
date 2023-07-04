@@ -1,0 +1,12 @@
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Shared\bin\Debug\net7.0\PaymentContext.Shared.deps.json
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Shared\bin\Debug\net7.0\PaymentContext.Shared.dll
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Shared\bin\Debug\net7.0\PaymentContext.Shared.pdb
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Shared\obj\Debug\net7.0\PaymentContext.Shared.csproj.AssemblyReference.cache
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Shared\obj\Debug\net7.0\PaymentContext.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Shared\obj\Debug\net7.0\PaymentContext.Shared.AssemblyInfoInputs.cache
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Shared\obj\Debug\net7.0\PaymentContext.Shared.AssemblyInfo.cs
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Shared\obj\Debug\net7.0\PaymentContext.Shared.csproj.CoreCompileInputs.cache
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Shared\obj\Debug\net7.0\PaymentContext.Shared.dll
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Shared\obj\Debug\net7.0\refint\PaymentContext.Shared.dll
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Shared\obj\Debug\net7.0\PaymentContext.Shared.pdb
+D:\Dev\balta.io\Modeling Rich Domain\Projects\PaymentContext\PaymentContext.Shared\obj\Debug\net7.0\ref\PaymentContext.Shared.dll
