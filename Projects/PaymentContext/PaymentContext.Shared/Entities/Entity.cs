@@ -1,12 +1,14 @@
-﻿namespace PaymentContext.Shared.Entities
-{
-	public abstract class Entity
-	{
-        public Entity()
-        {
-               Id = Guid.NewGuid(); 
-        }
+﻿using Flunt.Notifications;
 
-        public Guid Id { get; private set; }
+namespace PaymentContext.Shared.Entities
+{
+	public abstract class Entity : Notifiable<Notification>
+	{
+		public Entity()
+		{
+			Id = Guid.NewGuid();
+		}
+
+		public Guid Id { get; private set; }
     }
 }

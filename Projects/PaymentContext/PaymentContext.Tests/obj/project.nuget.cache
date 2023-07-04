@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "G7G4I/xU98JQemk7jz8eV6dKAxKZ17fT0MbhsUO7ERVjgBYAu83zdPbIZpG+N4edPsgBTcA+qidMfRXH/odF1g==",
+  "dgSpecHash": "R1fB0myRKMpLoRdBlLjWd9rENCKipiDmSSxYtZrNpssLjqKLtSggIs4VlGf0SCVSFfpVmj9goN4LQmLYbMCMHw==",
   "success": true,
   "projectFilePath": "D:\\Dev\\balta.io\\Modeling Rich Domain\\Projects\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kauaj\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\kauaj\\.nuget\\packages\\mstest.testframework\\3.0.4\\mstest.testframework.3.0.4.nupkg.sha512"
   ],
   "logs": []

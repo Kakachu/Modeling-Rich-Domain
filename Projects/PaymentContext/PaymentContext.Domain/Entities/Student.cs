@@ -1,6 +1,7 @@
 ﻿using PaymentContext.Domain.ValueObjects;
 using PaymentContext.Shared.Entities;
 using System.ComponentModel.DataAnnotations;
+using System.Reflection.Metadata;
 
 namespace PaymentContext.Domain.Entities
 {
@@ -16,6 +17,8 @@ namespace PaymentContext.Domain.Entities
 			PhoneNumber = phoneNumber;
 			Address = address;
 			_subcriptions = new List<Subscription>();
+
+			AddNotifications(name, identification, email, address);
 		}
 
         public Name Name { get; set; }

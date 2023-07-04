@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "MSTest.TestFramework/3.0.4": {
         "type": "package",
         "compile": {
@@ -63,6 +72,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Flunt": "2.0.5",
           "PaymentContext.Shared": "1.0.0"
         },
         "compile": {
@@ -75,6 +85,9 @@
       "PaymentContext.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Flunt": "2.0.5"
+        },
         "compile": {
           "bin/placeholder/PaymentContext.Shared.dll": {}
         },
@@ -85,6 +98,19 @@
     }
   },
   "libraries": {
+    "Flunt/2.0.5": {
+      "sha512": "CMgq8FUYjkHzyZT3PhkUwZyy79mudON+EL4b0SAT7BfIOJ2CNypwnbdA0cPHAM2CYQfO2L8ubNJCiBHQOIv2pA==",
+      "type": "package",
+      "path": "flunt/2.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.2.0.5.nupkg.sha512",
+        "flunt.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Flunt.dll"
+      ]
+    },
     "MSTest.TestFramework/3.0.4": {
       "sha512": "hYq5xOOr2k09rtXpmcHkJ4Tdt/yS4cy8jiFPNMdDJP+lB6OY8yekOmQC4Fsvug4rhLpXGDd6zbPWYeoewqfePA==",
       "type": "package",
@@ -198,6 +224,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Flunt >= 2.0.5",
       "MSTest.TestFramework >= 3.0.4",
       "PaymentContext.Domain >= 1.0.0",
       "PaymentContext.Shared >= 1.0.0"
@@ -254,6 +281,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Flunt": {
+            "target": "Package",
+            "version": "[2.0.5, )"
+          },
           "MSTest.TestFramework": {
             "target": "Package",
             "version": "[3.0.4, )"
