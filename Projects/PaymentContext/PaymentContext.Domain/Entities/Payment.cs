@@ -1,5 +1,8 @@
-﻿using PaymentContext.Domain.ValueObjects;
+﻿using Flunt.Notifications;
+using Flunt.Validations;
+using PaymentContext.Domain.ValueObjects;
 using PaymentContext.Shared.Entities;
+using System.Diagnostics.Contracts;
 
 namespace PaymentContext.Domain.Entities
 {
@@ -15,6 +18,12 @@ namespace PaymentContext.Domain.Entities
 			DateExpiration = dateExpiration;
 			Total = total;
 			TotalPaid = totalPaid;
+
+			AddNotifications(new Contract<Notification>()
+				.Requires()
+				.IsGreaterThan(0, Total, "Payment.Total", "Cannot be zero")
+				.IsGreaterOrEqualsThan(Total, TotalPaid, "Payment.TotalPaid", "The amount paid is less than payment costs.")
+				);
 		}
 
 		public string Number { get; private set; }

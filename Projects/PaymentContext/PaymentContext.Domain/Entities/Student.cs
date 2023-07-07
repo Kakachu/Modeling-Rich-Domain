@@ -1,7 +1,5 @@
 ﻿using PaymentContext.Domain.ValueObjects;
 using PaymentContext.Shared.Entities;
-using System.ComponentModel.DataAnnotations;
-using System.Reflection.Metadata;
 
 namespace PaymentContext.Domain.Entities
 {
@@ -36,13 +34,16 @@ namespace PaymentContext.Domain.Entities
         public List<Payment> Payments { get; private set; }
 
 		public void RegisterSubscription(Subscription subscription)
-		{
-			foreach(var sub in Subscriptions)
+		{ 
+			var hasSubscriptonActive = false;
+			foreach(var sub in _subcriptions)
 			{
-				sub.Enable();
+				if(sub.IsEnable)
+					hasSubscriptonActive = true;
 			}
 
-			_subcriptions.Add(subscription);
+			if (hasSubscriptonActive)
+				AddNotification("Student.Subscriptions", "You already has a enabled subscription");
 		}
 	}
 }
