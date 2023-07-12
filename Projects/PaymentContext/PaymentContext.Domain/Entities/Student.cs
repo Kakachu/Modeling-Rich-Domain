@@ -28,7 +28,6 @@ namespace PaymentContext.Domain.Entities
 
 		public Email Email { get; private set; }
 
-
         public Address Address { get; private set; }
 
         public IReadOnlyCollection<Subscription> Subscriptions { get { return _subcriptions.ToArray(); } }
