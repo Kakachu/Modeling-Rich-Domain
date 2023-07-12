@@ -1,7 +1,6 @@
 ﻿using Flunt.Notifications;
 using Flunt.Validations;
 using PaymentContext.Shared.Entities;
-using System.Diagnostics.Contracts;
 
 namespace PaymentContext.Domain.Entities
 {

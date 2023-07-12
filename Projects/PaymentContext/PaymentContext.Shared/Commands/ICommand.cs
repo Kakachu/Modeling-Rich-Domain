@@ -1,8 +1,7 @@
-﻿using System.Xml.Linq;
-
-namespace PaymentContext.Shared.Commands
+﻿namespace PaymentContext.Shared.Commands
 {
 	public interface ICommand
 	{
+		void Validate();
 	}
 }
