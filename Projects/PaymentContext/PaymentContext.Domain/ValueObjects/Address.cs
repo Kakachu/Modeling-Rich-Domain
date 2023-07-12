@@ -2,8 +2,18 @@
 
 namespace PaymentContext.Domain.ValueObjects
 {
-	public abstract class Address : ValueObject
+	public class Address : ValueObject
 	{
+        public Address(string street, string number, string city, string state, string country, string zipcode)
+        {
+            Street = street;
+            Number = number;
+            City = city;            
+            State = state;
+            Country = country;
+            ZipCode = zipcode;
+        }
+
         public string Street { get; private set; }
 
 		public string Number { get; private set; }

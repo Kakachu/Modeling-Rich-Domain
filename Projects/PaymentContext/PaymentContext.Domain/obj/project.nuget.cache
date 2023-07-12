@@ -1,10 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "6c23cbUyHDtfVSOL4J/c4J5m0dGWbTwG40M2G5DQmvQWxmYUyOYTxr2NiH6W+4EV2HIeErXEKlOpc2a+xoHs/g==",
+  "dgSpecHash": "npUUArRMZiyMwjad6qqStkr5bls1ZpeALCvVnzK5PyYd+F/FYc2sziG1Pb8jN3L8lsi2pXJub8RiCpgMvlXQWQ==",
   "success": true,
   "projectFilePath": "D:\\Dev\\balta.io\\Modeling Rich Domain\\Projects\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kauaj\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+    "C:\\Users\\kauaj\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
+    "C:\\Users\\kauaj\\.nuget\\packages\\microsoft.codecoverage\\17.6.3\\microsoft.codecoverage.17.6.3.nupkg.sha512",
+    "C:\\Users\\kauaj\\.nuget\\packages\\microsoft.net.test.sdk\\17.6.3\\microsoft.net.test.sdk.17.6.3.nupkg.sha512",
+    "C:\\Users\\kauaj\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.6.3\\microsoft.testplatform.objectmodel.17.6.3.nupkg.sha512",
+    "C:\\Users\\kauaj\\.nuget\\packages\\microsoft.testplatform.testhost\\17.6.3\\microsoft.testplatform.testhost.17.6.3.nupkg.sha512",
+    "C:\\Users\\kauaj\\.nuget\\packages\\mstest.testadapter\\3.0.4\\mstest.testadapter.3.0.4.nupkg.sha512",
+    "C:\\Users\\kauaj\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\kauaj\\.nuget\\packages\\nuget.frameworks\\6.5.0\\nuget.frameworks.6.5.0.nupkg.sha512",
+    "C:\\Users\\kauaj\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
 }
