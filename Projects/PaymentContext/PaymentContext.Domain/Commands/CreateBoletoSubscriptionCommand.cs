@@ -35,6 +35,8 @@ namespace PaymentContext.Domain.Commands
 
 		public EIdentificationType EPayerIdentificationType { get; set; }
 
+		public EIdentificationType EIdentificationType { get; set; }
+
 		public string Street { get; set; }
 
 		public string Number { get; set; }
